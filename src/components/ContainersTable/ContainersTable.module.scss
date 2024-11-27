@@ -1,0 +1,23 @@
+.container {
+  &Table {
+    margin: 0 auto;
+    width: 90%;
+  }
+  &Header {
+    color: wheat;
+  }
+}
+
+.containerCell {
+  &Status {
+    &.delivered {
+      background-color: green;
+    }
+    &.onWay {
+      background-color: blue;
+    }
+    &.waiting {
+      background-color: yellow;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.containerForm {
+  &Wrapper {
+    width: 50%;
+    color: wheat;
+    border: 1px solid wheat;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.formSubmit {
+  margin-top: 30px;
+}
